@@ -1,8 +1,18 @@
-# Welcome to your Expo app 👋
+# GSE Terminal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A bloomberg like terminal for GSE(Ghana stock Market). Live prices, browse market listings, view detailed stock information by symbol, and manage a personal wishlist — all with a clean, responsive UI and theming support.
 
-## Get started
+## Screenshots
+
+<p align="left">
+  <img src="assets/images/public/1.png" alt="Screenshot 1" width="300" style="margin-right: 8px;"/>
+  <img src="assets/images/public/2.png" alt="Screenshot 2" width="300" style="margin-right: 8px;"/>
+</p>
+
+<img src="assets/images/public/3.PNG" alt="Screenshot 3" width="300"/>
+
+
+## How to run
 
 1. Install dependencies
 
@@ -10,41 +20,14 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Start the development server
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+Then open the app in a development build, Android emulator, iOS simulator, or Expo Go as prompted.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## License
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is intended for educational/demo purposes.

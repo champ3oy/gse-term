@@ -199,6 +199,7 @@ export default function HomeScreen() {
   const { width } = useWindowDimensions();
   const isTablet = width >= 768;
   const isDesktop = width >= 1200;
+  const contentMaxWidth = isDesktop ? 1200 : isTablet ? 1000 : undefined;
   const heatmapCols = isDesktop ? 8 : isTablet ? 5 : 3;
   const [data, setData] = useState<SymbolStats[] | null>(null);
   const [loading, setLoading] = useState(true);
@@ -234,7 +235,7 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.centeredContentWrapper}>
+      <View style={[styles.centeredContentWrapper, contentMaxWidth ? { maxWidth: contentMaxWidth, alignSelf: 'center', width: '100%' } : null]}>
       <TerminalHeader tickers={tickers} selectedMenu={selectedMenu} onSelectMenu={setSelectedMenu} />
 
       {loading ? (
