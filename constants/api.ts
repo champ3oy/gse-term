@@ -1,0 +1,1 @@
+export const GSE_API_URL = 'https://gsemarketwatch.com/api/symbol-statistics'
